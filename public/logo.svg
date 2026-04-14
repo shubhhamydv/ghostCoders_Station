@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Station logo">
+  <rect width="120" height="120" rx="24" fill="#ffffff" />
+  <circle cx="60" cy="60" r="46" fill="none" stroke="#C8102E" stroke-width="20" />
+  <rect x="12" y="44" width="96" height="32" rx="8" fill="#00247D" />
+</svg>
