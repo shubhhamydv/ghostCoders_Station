@@ -1,0 +1,43 @@
+{
+  "entities": {
+    "UserProfile": {
+      "title": "UserProfile",
+      "description": "Stores user profile and progress information.",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string" },
+        "email": { "type": "string" },
+        "displayName": { "type": "string" },
+        "academicDetails": { "type": "object" },
+        "skills": { "type": "object" },
+        "targetRole": { "type": "string" },
+        "targetCompanies": { "type": "array" },
+        "xp": { "type": "number" },
+        "level": { "type": "number" },
+        "streak": { "type": "number" }
+      },
+      "required": ["uid", "email"]
+    },
+    "Roadmap": {
+      "title": "Roadmap",
+      "description": "Stores personalized roadmap for a user.",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string" },
+        "title": { "type": "string" },
+        "steps": { "type": "array" }
+      },
+      "required": ["userId", "title", "steps"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "UserProfile",
+      "description": "User profile document."
+    },
+    "/roadmaps/{userId}": {
+      "schema": "Roadmap",
+      "description": "User roadmap document."
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "PrepAI: AI Placement Mentor",
+  "description": "A comprehensive AI-powered placement preparation platform that analyzes skills, identifies weaknesses, generates personalized roadmaps, and simulates mock interviews to make students job-ready.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["AI Mentorship", "Mock Interviews", "Skill Analysis", "Roadmap Generation"]
+}
