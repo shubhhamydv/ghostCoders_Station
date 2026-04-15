@@ -42,6 +42,10 @@ export function AppSidebar() {
           <SidebarGroupLabel>
             {!collapsed && (
               <span className="flex items-center gap-2">
+<<<<<<< HEAD
+=======
+                <img src="/logo.svg" alt="Station logo" className="h-8 w-8 rounded-md border border-border bg-background" />
+>>>>>>> 396a475fd94fdd8c2da98391546caf3cb2ae119d
                 <span className="font-bold text-sidebar-primary">STATION</span>
                 <span className="text-[10px] px-1.5 py-0.5 rounded bg-sidebar-primary/20 text-sidebar-primary font-medium">{config.tag}</span>
               </span>

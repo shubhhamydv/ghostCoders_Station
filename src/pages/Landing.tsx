@@ -35,7 +35,14 @@ export default function Landing() {
 
       {/* Nav */}
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+<<<<<<< HEAD
         <h2 className="text-xl font-bold">Station</h2>
+=======
+        <div className="flex items-center gap-3">
+          <img src="/logo.svg" alt="Station logo" className="h-10 w-10 rounded-lg border border-border bg-background" />
+          <h2 className="text-xl font-bold">Station</h2>
+        </div>
+>>>>>>> 396a475fd94fdd8c2da98391546caf3cb2ae119d
         <div className="flex gap-3">
           <button onClick={() => navigate('/auth')}
             className="flex items-center gap-2 px-5 py-2.5 rounded-xl border border-border text-sm font-medium hover:bg-muted transition-colors">

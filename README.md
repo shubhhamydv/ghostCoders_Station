@@ -1,4 +1,13 @@
+<<<<<<< HEAD
  # 🚀 GhostCoders Station – AI Placement Mentor
+=======
+drive link:-(https://drive.google.com/file/d/1pwuOGrLCiE1p7iYc1xQQD0uSuHCYySMO/view?usp=drive_link)
+
+
+preview link:-https://growth-station.vercel.app/
+
+# 🚀 GhostCoders Station – AI Placement Mentor
+>>>>>>> 396a475fd94fdd8c2da98391546caf3cb2ae119d
 
 An AI-powered adaptive learning platform that helps students prepare for placements through **personalized learning paths, interview preparation, and performance tracking**.
 
@@ -210,3 +219,8 @@ If you found this project useful:
 ---
 
 > Built with ❤️ to help students crack placements smarter, not harder.
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 396a475fd94fdd8c2da98391546caf3cb2ae119d
